@@ -1,0 +1,8 @@
+# Ignora binarios: arquivos sem extensao (ex: aula01/hello, gerado por `gcc hello.c -o hello`)
+*
+!*/
+!*.*
+
+# Exceções: arquivos de texto comuns sem extensão que devem ser versionados
+!Makefile
+!LICENSE
